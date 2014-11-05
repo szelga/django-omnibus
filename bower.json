@@ -1,0 +1,38 @@
+{
+  "name": "django-omnibus",
+  "description": "Django/JavaScript WebSocket Connections",
+  "homepage": "https://github.com/moccu/django-omnibus",
+  "author": {
+    "name": "Moccu GmbH & Co. KG, Kreativagentur für digitale Medien",
+    "url": "http://www.moccu.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moccu/django-omnibus.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "version": "0.1.0",
+  "main": [
+    "omnibus/static/omnibus/omnibus.js",
+  ],
+  "dependencies": {
+  },
+  "ignore": [
+    "**/.*",
+    "**/*.py",
+    "**/*.sh",
+    "**/*.rc",
+    "**/*.pip",
+    "**/*.po",
+    "node_modules",
+    "bower_components",
+    "examples",
+    "testing",
+    "tox.ini"
+  ]
+}
