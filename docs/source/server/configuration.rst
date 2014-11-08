@@ -15,12 +15,14 @@ and tries to upgrade to websockets if possible.
 -----------------------
 
 Used to decide on which address the ``omnibusd`` server binds.
-Defaults to all addresses.
+Defaults to all addresses. If ``OMNIBUS_SERVER_PORT`` is set to ``None``
+then acts as a UNIX socket path.
 
 ``OMNIBUS_SERVER_PORT``
 -----------------------
 
 Sets the port on which the ``omnibusd`` listens. Defaults to ``4242``.
+Set ``None`` for UNIX socket.
 
 ``OMNIBUS_SERVER_BASE_URL``
 ---------------------------

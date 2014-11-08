@@ -36,6 +36,10 @@ This enables `django-omnibus` with normal websocket support.
     ``OMNIBUS_AUTH_TOKEN`` to the template context. You can use these variables
     to configure the JS library.
 
+.. hint::
+
+    If you're using UNIX sockets then ``OMNIBUS_ENDPOINT`` variable is useless.
+
 Using SockJS
 ------------
 
